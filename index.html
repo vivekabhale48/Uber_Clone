@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- OWn css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive-style.css">
+
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid padd">
+            <a class="navbar-brand text-light" href="#">Uber</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" style="font-size: 13px;" id="navbarNavDropdown">
+                <ul class="navbar-nav gap-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light bg-hover" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item " href="#">About us</a></li>
+                            <li><a class="dropdown-item" href="#">Our Offerings</a></li>
+                            <li><a class="dropdown-item" href="#">How Uber works</a></li>
+                            <li><a class="dropdown-item" href="#">Global Citizenship</a></li>
+                            <li><a class="dropdown-item" href="#">Newsroom</a></li>
+                            <li><a class="dropdown-item" href="#">Investor relations</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Careers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-hover" aria-current="page" href="#">Safety</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-hover" href="#">Help</a>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav gap-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-hover" aria-current="page" href="#">
+                            <i class="fa-solid fa-globe text-light"></i>
+                            EN
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-hover" aria-current="page" href="#">
+                            <i class="fa-solid fa-table-cells text-light"></i>
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-hover" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item" style="background-color: white; border-radius: 20px;">
+                        <a class="nav-link text-dark" aria-current="page" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE1 -->
+
+    <main class="container-fluid">
+        <section class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xl-12 img-pad">
+                <div class="d-flex bg-image" style=" min-height: 644px;">
+
+                    <!-- form on front page -->
+                    <div class="w-100">
+                        <div class="w-100 h-100" style="padding: 75px 49px 56px 53px;">
+
+
+                            <!-- HEAD -->
+
+                            <div class="w-50" style="background-color: white;">
+                                <div class="header-flex">
+                                    <a class="underline" href="" style="text-decoration: none;">
+                                        <div>
+                                            <div class="align-flex text-black" style="gap: 12px;">
+                                                <img src="./images/img/car-front-outlined.svg"
+                                                    style="border: 1px solid black;" alt="">
+                                                <span style="font-size: 14px;">Ride</span>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="" href="">
+                                        <div>
+                                            <div class="align-flex text-black" style="gap: 12px;">
+                                                <img src="./images/img/Earn-filled.svg" style="border: 1px solid black;"
+                                                    alt="">
+                                                <div class="align-flex">
+                                                    <span style="font-size: 14px;">Drive or</span>
+                                                    <span style="font-size: 14px;">deliver</span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <!-- BODY -->
+
+                            <div class="w-50" style="background-color: white;">
+                                <div class="d-grid padded">
+                                    <!-- Head -->
+                                    <div>
+                                        <h2 style="font-family: sans-serif; font-size: 55px; margin-bottom: 40px;">
+                                            Request a ride now</h2>
+
+                                    </div>
+                                    <!-- mid -->
+                                    <div class="d-grid" style="margin-bottom: 22px;">
+                                        <input class="input-improve" style="margin-bottom: 13px;" type="text"
+                                            placeholder="Enter pickup location">
+                                        <input class="input-improve" type="text" placeholder="Enter destination">
+                                    </div>
+                                    <!-- lower -->
+                                    <div class="d-flex" style="gap: 20px;">
+                                        <button class="btn btn-dark rounded-0 px-4 py-2">Request now</button>
+                                        <button class="btn btn-secondary rounded-0 px-4 py-2"> Schedule for
+                                            later</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- BASE -->
+
+                            <div class="w-50" style="background-color: white;">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- CITY -->
+    <section class="container-fluid p-0" id="city">
+        <div class="container">
+            <div class="pt-5">
+                <h2 class="mt-4 mb-4">Uber for Business</h2>
+                <p class="mb-4">Transform the way your company moves and feeds its people.</p>
+                <button class="btn btn-dark py-2 px-4 rounded-0 mt-1">See How</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CABS AND CARS -->
+    <section class="container">
+        <h2 class="my-5">Ride with Uber</h2>
+        <div class="row mb-5 pt-5">
+            <div class="col-md-6">
+                <div class="row m-0">
+                    <div class="col-md-4">
+                        <img src="./images/img/Auto-150X150p4x.webp" class="w-100" style="object-fit: cover" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-5">
+                            <h4>Uber Auto</h4>
+                            <p>Get affordable Uber Auto rides with no haggling. Request Uber Auto and ride
+                                comfortably around your city.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 pt-5 d-none d-md-block">
+                            <i class="fa-solid fa-arrow-right fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row m-0">
+                    <div class="col-md-4">
+                        <img src="./images/img/Moto-150X150p4x.webp" class="w-100" style="object-fit: cover" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <h4>Uber Moto</h4>
+                            <p>Get affordable Uber Auto rides with no haggling. Request Uber Auto and ride
+                                comfortably around your city.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 pt-5 d-none d-md-block">
+                            <i class="fa-solid fa-arrow-right fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-5 pt-5">
+            <div class="col-md-6">
+                <div class="row m-0">
+                    <div class="col-md-4">
+                        <img src="./images/img/Uber_Rent_Logo_Angle04_050622-01.webp" class="w-100"
+                        style="object-fit: cover" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-5">
+                            <h4>Uber Rentals</h4>
+                            <p>Get affordable Uber Auto rides with no haggling. Request Uber Auto and ride
+                                comfortably around your city.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 pt-5 d-none d-md-block">
+                        <i class="fa-solid fa-arrow-right fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row m-0">
+                    <div class="col-md-4">
+                        <img src="./images/img/Intercity-150X150p4x.webp" class="w-100" style="object-fit: cover"
+                            alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <h4>Uber Intercity</h4>
+                            <p>Get affordable Uber Auto rides with no haggling. Request Uber Auto and ride
+                                comfortably around your city.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 pt-5 d-none d-md-block">
+                        <i class="fa-solid fa-arrow-right fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MIDSECTION-2  -->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <h1>Focus on safety where you go</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards Starts -->
+
+        <div class="row row-cols-1 row-cols-md-2 g-5 mb-3 mt-0" style="font-family: 'Roboto', sans-serif;">
+            <div class="col">
+              <div class="">
+                <img src="./images/img/Safety_Home_Img2x1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title my-4" style=" font-size: 18px;">Our commitment to your safety</h5>
+                  <small class="card-text" style="font-size: 16px;">With every safety feature and every standard in our Community <br> Guidelines, we're committed to helping to create a safe environment for our users.</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="">
+                <img src="./images/img/Cities_Home_Img2x2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title my-4" style=" font-size: 18px;">Setting 10,000+ cities in motion</h5>
+                  <small class="card-text" style="font-size: 16px;">The app is available in thousands of cities worldwide, so you can request a ride even when you’re far from home.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+                <div class="w-100 d-flex py-3" style="gap: 20px;">
+                    <a class="text-black" href="">Read about our Community Guidelines</a>
+                    <a class="text-black" href="">See all safety features</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="w-100 d-flex py-3" style="padding-left: 11px;">
+                    <a class="text-black" href="">View all cities</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- MIDSECTION-3 -->
+    
+    <section class="w-100" style="height: 408px; background-color: #f6f6f6;">
+        <div style="width: 100%; height: 100%;">
+            <div style="width: 100%; height: 100%; padding: 60px;">
+                <div style="width: 100%; height: 100%; display: grid;">
+                    <!-- text  -->
+                    <div>
+                        <h1>There’s more to love in the apps</h1>
+                    </div>
+                    <!-- image  -->
+                    <div class="d-flex" style="gap: 35px;">
+                        <div style="width: 50%;">
+                            <img class="w-100" src="./images/img/u1.jpg" alt="">
+                        </div>
+                        <div style="width: 50%;">
+                            <img class="w-100" src="./images/img/u2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MIDSECTION-4  -->
+
+    <section style="height: 213px; font-size: 36px; font-family: 'Roboto', sans-serif;">
+        <div class="w-100 h-100">
+            <div class="w-100 h-100" style="padding: 64px;">
+
+                <div class="row h-100" style="gap: 30px;">
+                    <div class="col h-100" style="display: flex; align-items: center; border-bottom: 0.5px solid black; justify-content: space-between;
+                    padding: 0px; cursor: pointer;">
+                        <h1 style="margin: 0px; font-weight: 400; font-size: 36px;">Sign up to drive</h1>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="col h-100" style="display: flex; align-items: center; border-bottom: 0.5px solid black; justify-content: space-between;
+                    padding: 0px; cursor: pointer;">
+                        <h1 style="margin: 0px; font-weight: 400; font-size: 36px;">Sign up to ride</h1>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTEER -->
+
+
+    <footer class="bg-black" style="height: 120vh; width: 100%;">
+        <section style="width: 100%; height: 100%;">
+            <div style="width: 100%; height: 100%;">
+                <div style="padding: 64px; width: 100%; height: 100%;">
+                    <div class="d-grid text-white" style="width: 100%; height: 100%;">
+                        <!-- div-1 -->
+                        <div id="footer-head">
+                            <div class="h3">Uber</div>
+                            <div class="h6">Visit Help Center</div>
+                        </div>
+                        <!-- div-2 -->
+                        <div class="row" style="line-height: 32px; margin-top: 35px;">
+                            <div class="col-xl-3">
+                                <h5>Company</h5>
+                                <ul style="list-style: none;">
+                                    <li>About us</li>
+                                    <li>Our offerings</li>
+                                    <li>Newsroom</li>
+                                    <li>Investors</li>
+                                    <li>Blog</li>
+                                    <li>Careers</li>
+                                    <li>AI</li>
+                                    <li>Gift cards</li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3">
+                                <h5>Products</h5>
+                                <ul style="list-style: none;">
+                                    <li>Ride</li>
+                                    <li>Drive</li>
+                                    <li>Deliver</li>
+                                    <li>Eat</li>
+                                    <li>Uber for Business</li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3">
+                                <h5>Global citizenship</h5>
+                                <ul style="list-style: none;">
+                                    <li>Safety</li>
+                                    <li>Diversity and inclusion</li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3">
+                                <h5>Travel</h5>
+                                <ul style="list-style: none;">
+                                    <li>Airports</li>
+                                    <li>Cities</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- div-3 -->
+                        <div class="row mb-5 mt-5">
+                            <!-- Icons  -->
+                            <div class="col-md-3">
+                                <div class="d-flex gap-4 py-2">
+                                    <a href="" target="_blank"><i class="fa-brands fa-facebook-square text-white"></i></a>
+                                    <a href="" target="_blank"><i class="fa-brands fa-twitter text-white"></i></a>
+                                    <a href="" target="_blank"><i class="fa-brands fa-youtube text-white"></i></a>
+                                    <a href="" target="_blank"><i class="fa-brands fa-linkedin text-white"></i></a>
+                                    <a href="" target="_blank"><i class="fa-brands fa-instagram text-white"></i></a>
+                                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp text-white"></i></a>
+                                </div>
+                            </div>
+                            <!-- places  -->
+                            <div class="col-md-6">
+                                <div class="d-flex gap-4 py-2">
+                                    <div>
+                                        <i class="fa-solid fa-globe me-1"></i>
+                                        <span>English</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-location-dot me-1"></i>
+                                        <span>Pune</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Images  -->
+                            <div class="col-md-3">
+                                <div class="d-flex gap-3">
+                                    <img src="../../BOOTSRAP/pics/playstoreimg2.webp" width="125rem" alt="">
+                                    <img src="../../BOOTSRAP/pics/playstoreimg.webp" width="125rem" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- div-4 -->
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
+
+    <!-- OWn JS -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

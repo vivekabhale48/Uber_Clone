@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300;8..144,400;8..144,500;8..144,700;8..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*,
+*::after,
+*::before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--primary-color);
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --primary-color: #AB2C48
+    --primary-font: 'Roboto', sans-serif;
+    --secondry-font: 'Quicksand', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+
+
+
+/* main starts */
+
+
+.bg-hover:hover{
+    /* transition: transform 1s ease; */
+    border-radius: 22px;
+    background-color: grey;
+    animation: transition 2s ease;
+}
+.gap-nav{
+    gap: 18px
+
+}
+.padd{
+    padding: 0px 78px;
+}
+.bg-image{
+    background-image: url(../images/img/Rider_Home_bg_desktop2x.webp);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.img-pad{
+    padding: 0px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 0.5px solid gainsboro;
+}
+.align-flex{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.input-improve{
+    margin-bottom: 10px;
+    padding: 11px 41px 11px 33px;
+    min-height: 51px;
+    background-color: #F6F6F6;
+    border: none;
+}
+.padded{
+    padding: 31px 48px 56px 48px;
+}
+#city{
+    background-image: url(../images/img/DotCom_Update_U4B_bg_ipad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-size: auto; */
+    /* object-fit: cover; */
+    background-size: cover;
+    /* margin-bottom: 39px; */
+    max-width: 1280px;
+    min-height: 300px;
+}
+/* .underline:after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 3px;
+    width: 150px;
+    left: 0;
+    /* bottom: -10px;} */
+    
+#footer-head{
+    margin-bottom: 31px;
+    gap: 18px;
+    display: grid;
+    /* border: 1px solid black; */
+    justify-items: start;
+    align-items: center;
+}
